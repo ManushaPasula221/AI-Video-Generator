@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 1px 0px;
+}
+
+body {
+    height: 100vh;
+    background: #000
+}
+
+.app{
+    color: white;
+    font-family: "Outfit";
+}

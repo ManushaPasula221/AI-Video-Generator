@@ -1,0 +1,82 @@
+.app-container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin: 50px 170px;
+}
+
+.app-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.app-left h1 span{
+    font-size: 70px;
+    font-weight: 700;
+    background: linear-gradient(#16a085 50%, #2c67f2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-left h1{
+    font-size: 60px;
+    font-weight: 600;
+    background: linear-gradient(#16a085 50%, #2c67f2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-left p{
+    max-width: 550px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.app-left input {
+    border: none;
+    width: 500px;
+    height: 65px;
+    padding-left: 20px;
+    border-radius: 50px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: 'Outfit';
+    font-size: 20px;
+}
+
+.app-left input:hover{
+    border: 2px solid #16a085;
+}
+
+.app-button{
+    border: none;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #16a085 25%, #2c67f2 100%);
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.app-button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.app-right{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: start;
+    border-radius: 4px;
+    padding: 10px;
+    width: 350px;
+    height: 500px;
+}
